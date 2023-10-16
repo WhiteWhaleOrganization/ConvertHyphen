@@ -106,8 +106,8 @@ extension chngRewriteGiga {
     }
     
     @objc func resltNamedPlus(){
-        let var_m:[String:Any] = self.chrAmountCard.pperLowestTerm[(self.sterskGigaExist == nil ? 0 : self.sterskGigaExist.row)]
-        let pnnCenterWatch = var_m["link"]
+        let TerWatchmple:[String:Any] = self.chrAmountCard.pperLowestTerm[(self.sterskGigaExist == nil ? 0 : self.sterskGigaExist.row)]
+        let pnnCenterWatch = TerWatchmple["link"]
         if (self.chrAmountCard.exmpleLongDamage == "1" && pnnCenterWatch != nil && !(pnnCenterWatch is NSNull) && pnnCenterWatch as! String != "") {
             tndexDistinctPurge()
         }
