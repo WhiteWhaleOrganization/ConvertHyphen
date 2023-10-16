@@ -21,6 +21,7 @@ class chngRewriteGiga: lrnRespondCall {
     var verwrteFlushDecoder:AVPlayer!
     var strgeCareWorld:AVPlayerLayer!
     var reserveCenterRegard:AVPlayerItem!
+    var sseditSuble:UIView!
     var pltfrmLittleRight:UIActivityIndicatorView!
     var chnnelsHyphenLike:Timer!
     var ntteExpandBack:Timer!
@@ -43,7 +44,7 @@ class chngRewriteGiga: lrnRespondCall {
         }
                 
         let regexAcceptLess = UIButton(type: .custom)
-        regexAcceptLess.backgroundColor = .clear
+        regexAcceptLess.backgroundColor = .SrceShiftDecoder
         regexAcceptLess.addTarget(self, action: #selector(restreBorderCare), for: .touchUpInside)
         bserverMagnifierNext.addSubview(regexAcceptLess)
         regexAcceptLess.snp.makeConstraints { make in
@@ -97,7 +98,8 @@ class chngRewriteGiga: lrnRespondCall {
         }
         
         pctreButtonOmit = UIView()
-        pctreButtonOmit.backgroundColor = .clear
+        pctreButtonOmit.isUserInteractionEnabled = false
+        pctreButtonOmit.backgroundColor = .SrceShiftDecoder
         regexAcceptLess.addSubview(pctreButtonOmit)
         pctreButtonOmit.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -132,6 +134,13 @@ class chngRewriteGiga: lrnRespondCall {
         }
         
         if (self.chrAmountCard.exmpleLongDamage == "1" && pnnCenterWatch != nil && !(pnnCenterWatch is NSNull) && pnnCenterWatch as! String != "") {
+            sseditSuble = UIView()
+            sseditSuble.backgroundColor = .init(red: 0, green: 0, blue: 0, alpha: 0.5)
+            pctreButtonOmit.addSubview(sseditSuble)
+            sseditSuble.snp.makeConstraints { make in
+                make.edges.equalToSuperview()
+            }
+
             pltfrmLittleRight = UIActivityIndicatorView(style: .whiteLarge)
             pltfrmLittleRight.startAnimating()
             pctreButtonOmit.addSubview(pltfrmLittleRight)
@@ -350,7 +359,7 @@ class chngRewriteGiga: lrnRespondCall {
         }
         
         let regexAcceptLess = UIButton(type: .custom)
-        regexAcceptLess.backgroundColor = .clear
+        regexAcceptLess.backgroundColor = .SrceShiftDecoder
         regexAcceptLess.layer.cornerRadius = 8
         regexAcceptLess.clipsToBounds = true
         regexAcceptLess.addTarget(self, action: #selector(redndntSwapTimer), for: .touchUpInside)
@@ -536,6 +545,7 @@ class chngRewriteGiga: lrnRespondCall {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == tensnBottomSpeech([441, 442, 423, 442, 443, 441]), let welcmeDrumAware = object as? AVPlayerItem {
             if (welcmeDrumAware.status == .readyToPlay) {
+                sseditSuble.isHidden = true
                 pltfrmLittleRight.stopAnimating()
                 verwrteFlushDecoder.pause()
                 thcknessCancelFont = true
@@ -545,6 +555,7 @@ class chngRewriteGiga: lrnRespondCall {
                     frscreCellsAround()
                 }
             } else if (welcmeDrumAware.status == .failed) {
+                sseditSuble.isHidden = true
                 pltfrmLittleRight.stopAnimating()
                 verwrteFlushDecoder.pause()
                 thcknessCancelFont = false

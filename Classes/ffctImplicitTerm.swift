@@ -10,7 +10,9 @@ import Foundation
 extension chngRewriteGiga {
     
     func tndexDistinctPurge() {
+        
         nywhereComeEntry(dsmssSystemMoment: false)
+        sseditSuble.isHidden = true
         pltfrmLittleRight.stopAnimating()
         if (verwrteFlushDecoder != nil) {
             verwrteFlushDecoder.pause()
