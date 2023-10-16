@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ConvertHyphen"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "ConvertHyphen Code"
   spec.swift_version = '5.0'
 
