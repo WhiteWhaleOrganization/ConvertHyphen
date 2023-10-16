@@ -1,0 +1,6 @@
+framework module MZRaise {
+  umbrella header "MZRaise-umbrella.h"
+
+  export *
+  module * { export * }
+}

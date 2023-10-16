@@ -1,0 +1,6 @@
+framework module SpeechBell {
+  umbrella header "SpeechBell-umbrella.h"
+
+  export *
+  module * { export * }
+}
