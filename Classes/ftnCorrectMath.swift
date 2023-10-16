@@ -15,7 +15,7 @@ class ftnCorrectMath: slidCircuitMega {
             .ccdentAssignDisk(.ClckedContainsMicro, .selected)
             .rerrngeStatusTask(.systemFont(ofSize: 15, weight: .bold))
             .frscrePeriodZero(30)
-            .pnnTracePath(true)
+            .pnnTracePath(false)
             .rtneDivideCreate(UIColor.ClckedContainsMicro.cgColor)
         return bttnPricePast
     }()
